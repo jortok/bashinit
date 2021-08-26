@@ -134,3 +134,16 @@ alias NetIntIPv6="ip a |grep 'inet6 '| awk '{print \$NF,\$2}'"
 # Identificadores
 alias ventana="xprop | grep CLASS"
 alias tecla="xev | grep keysym"
+
+# Kubernetes
+alias kubectl='kubecolor'
+alias k='kubectl'
+alias kg='kubectl get'
+alias kgp='kubectl get pod'
+alias kgpw='kubectl get pod -o wide'
+alias kgd='kubectl get deploy'
+alias kgs='kubectl get service'
+alias kgj='kubectl get jobs'
+
+alias kapp='kubectl apply -f'
+alias kdel='kubectl delete -f'

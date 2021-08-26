@@ -3,9 +3,9 @@ export PATH="$HOME/bin:$PATH";
 export PATH=$PATH:/usr/local/go/bin
 export HISTTIMEFORMAT="%F %T: "
 export HISTFILE="$HOME/.cache/.bash_history"
-export XDG_CONFIG_HOME="$HOME/.config/"
-export XDG_CACHE_HOME="$HOME/.cache/"
-export XDG_DATA_HOME="$HOME/.local/share/"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
 export GPG_TTY=$(tty)
 
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"

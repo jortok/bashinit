@@ -2,7 +2,7 @@
 
 # Reemplazo de los archivos bash esenciales
 cp .bashrc $HOME/.bashrc
-cp -r .config $HOME/
+cp -rv .config $HOME/
 source $HOME/.bashrc
 
 # Se agregan las llaves SSH
