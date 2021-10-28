@@ -2,6 +2,7 @@
 
 # Reemplazo de los archivos bash esenciales
 cp .bashrc $HOME/.bashrc
+cp .profile $HOME/.profile
 cp -rv .config $HOME/
 source $HOME/.bashrc
 
