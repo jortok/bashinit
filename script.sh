@@ -4,6 +4,7 @@
 cp .bashrc $HOME/.bashrc
 cp .profile $HOME/.profile
 cp -rv .config $HOME/
+cp -rv bin $HOME/bin
 source $HOME/.bashrc
 
 # Se agregan las llaves SSH
